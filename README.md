@@ -103,14 +103,6 @@ campus-vpp/
 └── .github/workflows/ci.yml   Lint + test on push
 ```
 
-## Roadmap (post-hackathon)
-
-- Replace the seasonal-naive forecaster with a trained LSTM/Prophet model on real historical weather + generation data
-- Replace the rule-based optimiser with a MILP-based dispatch solver
-- Modbus/SunSpec + MQTT adapters for real inverter/meter ingestion
-- Multi-campus support with role-based access for facilities/supervisors/central analysts
-- Exportable carbon-savings reporting for statutory compliance
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
